@@ -2,7 +2,7 @@
 
 https://prog-8.com/
 
-# 進捗 (1/79 1.27%)
+# 進捗 (2/79 2.53%)
 
 - 01 HTML & CSS (0/7)
 
@@ -24,7 +24,7 @@ https://prog-8.com/
 
 - 10 Command Line (1/1)
 
-- 11 Git (0/1)
+- 11 Git (1/1)
 
 - 12 SQL (0/5)
 
@@ -39,3 +39,4 @@ https://prog-8.com/
 # 2020/07/24
 
 - 10CommandLineを学習した
+- 11Gitを学習した
