@@ -2,7 +2,7 @@
 
 https://prog-8.com/
 
-# 進捗 (2/79 2.53%)
+# 進捗 (7/79 8.86%)
 
 - 01 HTML & CSS (0/7)
 
@@ -20,7 +20,7 @@ https://prog-8.com/
 
 - 08 Java (0/7)
 
-- 09 Python (0/5)
+- 09 Python (5/5)
 
 - 10 Command Line (1/1)
 
