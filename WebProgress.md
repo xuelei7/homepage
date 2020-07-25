@@ -2,13 +2,11 @@
 
 https://prog-8.com/
 
-# 進捗 (12/79 15.19%)
+# 進捗 (19/79 24.05%)
 
 - 01 HTML & CSS (0/7)
 
 - 02 JavaScript (ES5) (0/5)
-
-- 03 JavaScript (0/7)
 
 - 04 jQuery (0/4)
 
@@ -20,7 +18,6 @@ https://prog-8.com/
 
 - 08 Java (0/7)
 
-
 - 13 Sass (0/1)
 
 - 14 Go (0/4)
@@ -30,6 +27,8 @@ https://prog-8.com/
 - 16 Node.js (0/3)
 
 ---
+
+- 03 JavaScript (7/7)
 
 - 09 Python (5/5)
 
