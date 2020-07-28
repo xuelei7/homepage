@@ -7,6 +7,16 @@ body{
     text-align: center;
 }
 
+.header_icon {
+    width: 80px;
+    height: 80px;
+    float: left;
+}
+
 .contents {
     padding-left: 100px;
+}
+
+.record p {
+    padding-left: 40px;
 }
