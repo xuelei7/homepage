@@ -34,6 +34,7 @@ h1 {
     color: #ff0000;
     font-size: 10px;
     font-family: serif;
+    font-weight: bold;
     background-color: #dddddd;
     width: 500px;
     height: 80px;
@@ -96,7 +97,10 @@ transition: all(変化対象) 1s(変化時間) アニメーション付ける
 
 line-height: 行間指定
 
-位置指定：position: absolute/relative/fixed; top: oopx; left: oopx;
+位置指定：
+position: absolute/relative/fixed; 
+top: oopx; 
+left: oopx;
 
 影の指定：box-shadow: 水平　垂直　色
 
@@ -105,6 +109,52 @@ line-height: 行間指定
 letter-spacing: 文字間隔
 
 ## 上級編
+
+レスポンシブデザイン：画面に対応するレイアウト変更
+
+---
+### CSSにおける設定
+
+- メディアクエリ(Media Queries)
+
+```css
+@media (max-width: 1000px) {
+    /* 1000px 以下のときに適用したいCSSを記述*/
+    /* max-width: 最大幅 */
+    /* min-width: 最小幅 */
+    /* ブレイクポイント: スマホ <= 670px < タブレット <= 1000px < パソコン */
+}
+
+.item {
+    width: 25%;
+}
+@media (max-width: 1000px) {
+    .item {
+        width: 50%;
+    }
+}
+@media (max-width: 670px) {
+    .item {
+        width: 100%;
+    }
+}
+```
+
+- box-sizing: border-box;
+
+レイアウト崩れ防止
+
+border-box: width + padding + border (marginは含まれない)
+
+```css
+/* 全要素に適応させる */
+* {
+    box-sizing: border-box;
+}
+```
+
+---
+### HTMLにおける設定
 
 ## Flexbox編
 

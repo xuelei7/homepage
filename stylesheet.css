@@ -1,0 +1,12 @@
+body{
+    width:1170px;
+    margin: 0 auto;
+}
+
+.top {
+    text-align: center;
+}
+
+.contents {
+    padding-left: 100px;
+}
