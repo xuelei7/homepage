@@ -151,10 +151,20 @@ border-box: width + padding + border (marginは含まれない)
 * {
     box-sizing: border-box;
 }
+
+.container {
+    max-width: 1170px;
+    width: 100%;
+}
 ```
 
 ---
 ### HTMLにおける設定
 
-## Flexbox編
+- viewportの設定
 
+```html
+<head>
+    <meta name="viewport" content="width=device-width, initiaal-scale=1.0">
+</head>
+```
